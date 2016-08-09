@@ -1,7 +1,7 @@
 {
-  "name": "starwars-names",
-  "version": "1.0.0",
-  "description": "Get random Star Wars names",
+  "name": "metal-band-names",
+  "version": "0.0.0-semantically-released",
+  "description": "Get random metal band names",
   "main": "dist/index.js",
   "scripts": {
     "prebuild": "rimraf dist",
@@ -16,21 +16,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kentcdodds/starwars-names.git"
+    "url": "https://github.com/vandosant/metal-band-names.git"
   },
   "keywords": [
     "random",
-    "star wars"
+    "metal",
+    "bands"
   ],
   "files": [
     "dist"
   ],
-  "author": "Kent C. Dodds <kent@doddsfamily.us> (http://kentcdodds.com/)",
+  "author": "Scott J. Skender <sjskender@gmail.com> (http://scottskender.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kentcdodds/starwars-names/issues"
+    "url": "https://github.com/vandosant/metal-band-names/issues"
   },
-  "homepage": "https://github.com/kentcdodds/starwars-names#readme",
+  "homepage": "https://github.com/vandosant/metal-band-names#readme",
   "dependencies": {
     "unique-random-array": "1.0.0"
   },

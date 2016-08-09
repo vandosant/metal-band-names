@@ -1,3 +1,9 @@
-# starwars-names
+# metal-band-names
 
-For all your random Star Wars character needs
+## Installation
+
+This package is distributed via npm:
+
+```
+npm install metal-band-names
+```
