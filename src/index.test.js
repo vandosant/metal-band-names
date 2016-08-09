@@ -12,12 +12,12 @@ describe('metal-band-names', function() {
 
   describe('random', function() {
     it('should return a random item from the metalBandNames.all', function() {
-      var randomItem = metalBandNames.random();
+      const randomItem = metalBandNames.random();
       expect(metalBandNames.all).to.include(randomItem);
     });
 
     it('should return an array of random items if passed a number', function() {
-      var randomItems = metalBandNames.random(3);
+      const randomItems = metalBandNames.random(3);
       expect(randomItems).to.have.length(3);
       randomItems.forEach(function(item) {
         expect(metalBandNames.all).to.include(item);
@@ -25,10 +25,11 @@ describe('metal-band-names', function() {
     });
   });
 });
+});
 function isArrayOfStrings(array) {
   return array.every(i => typeof i === 'string')
 }
 
-function isIncludedIn(array) {
-  return item => array.includes(item)
-}
+//function isIncludedIn(array) {
+//  return item => array.includes(item)
+//}
